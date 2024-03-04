@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="kolme">
+        <p>
+            Anna kolme lukua ja paina sen jälkeen järjestä luvut nappia.
+        </p>
+        <p>Anna 1. numero</p> <input type="number" id="numero1"><br>
+        <p>Anna 2. numero</p> <input type="number" id="numero2"><br>
+        <p>Anna 3. numero</p> <input type="number" id="numero3"><br>
+        <br>
+        <button onclick="järjestäNumerot()">Järjsetä luvut</button>
+        <p id="järjestä"></p>
+    </div>
+    <div id="viisi">
+        <p>Anna 5 lukua ja kun painat nappia, ohjelma etsii niistä suurimman.</p>
+        <p>Anna 1. numero</p> <input type="number" id="n1"><br>
+        <p>Anna 2. numero</p> <input type="number" id="n2"><br>
+        <p>Anna 3. numero</p> <input type="number" id="n3"><br>
+        <p>Anna 4. numero</p> <input type="number" id="n4"><br>
+        <p>Anna 5. numero</p> <input type="number" id="n5"><br>
+        <br>
+        <button type="button" id="etsi">Paina tästä</button>
+        <p id="numero"></p>
+    </div>
+    <div id="yksi">
+        <p>Anna joku luku ja ohjelma kertoo onko luku parillinen vai pariton.</p>
+        <P>Anna luku</P> <input type="number" id="luku">
+        <button onclick="tarkistaLuku()">Paina tästä</button>
+        <p id="tulos"></p>
+    </div>
+    <div id="ajo">
+        <p>Anna oma ikä ja ohjelma kertoo mitä ajoneuvoa saat ajaa.</p>
+        <input type="number" id="ikä">
+        <button onclick="tarkistaIkä()">Paina tästä</button>
+        <p id="ajoOikeus"></p>
+    </div>
+    <div id="kääntö">
+        <p>Valitse kieli, millä haluat kääntää "Hei maailma!" tekstin.<br>
+            Nappi "Paina tästä, kääntää tekstin."
+        </p>
+        <select id="kieli">
+            <option value=""></option>
+            <option value="Englanti">Englanti</option>
+            <option value="Saksa">Saksa</option>
+            <option value="Ruotsi">Ruotsi</option>
+        </select>
+        <button onclick="käännäLause()">Paina tästä</button>
+        <p id="käännös"></p>
+    </div>
+</body>
+</html>

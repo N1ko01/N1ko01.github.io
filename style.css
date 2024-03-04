@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(44, 34, 68, 0.575);
+}
+p {
+    font-size: large;
+    color: white;
+}
+#kolme {
+    background-color: darkblue;
+}
+#viisi {
+    background-color: darkred;
+}
+#yksi {
+    background-color: darkviolet;
+}
+#ajo {
+    background-color: darkorange;
+}
+#kääntö {
+    background-color: goldenrod;
+}
